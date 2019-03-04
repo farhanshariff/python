@@ -1,4 +1,5 @@
-#start off with "(sudo) pip install SpeechRecognition "
+#this program recognizes speech from audio files.
+#start off with "(sudo) pip install SpeechRecognition"
 #the audio file recorded has to be of the extention ".wav"
 #save the audio file in the same folder where the program is stored and run the program
 
