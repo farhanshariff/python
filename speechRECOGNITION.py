@@ -14,8 +14,8 @@ with sr.AudioFile(audio_file) as source:
 try:
     print("audio file contains " + r.recognize_google(audio))
 except sr.UnknownValueError:
-    print("sorry, audio cant be understood, why don't you try it again ")
+    print("sorry, audio cant be understood ")
 except sr.RequestError:
-    print("no results from google speech recognition, please try again")
+    print("no results from google speech recognition")
 
 
