@@ -16,6 +16,6 @@ try:
 except sr.UnknownValueError:
     print("sorry, audio cant be understood")
 except sr.RequestError:
-    print("no results from google speech recognition")
+    print("no results from google speech recognition, please try again")
 
 
