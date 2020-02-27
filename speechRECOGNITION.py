@@ -18,6 +18,6 @@ except sr.UnknownValueError:
 except sr.RequestError:
     print("no results from google speech recognition")
 
-print("done")
+print("done and done")
 
 
